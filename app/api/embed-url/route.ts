@@ -22,4 +22,3 @@ export async function POST(req: Request) {
 
   return NextResponse.json({ url: resp.data?.url });
 }
-
